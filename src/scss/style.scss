@@ -1,0 +1,25 @@
+@import'normalize';
+
+@import 'variables.scss';
+
+@import 'global.scss';
+@import 'fonts.scss';
+// @import 'sprite.scss';
+
+@import 'blocks/header.scss';
+@import 'blocks/contacts-section.scss';
+@import 'blocks/side-bar.scss';
+@import 'blocks/slide-section.scss';
+@import 'blocks/slide-slider.scss';
+@import 'blocks/slide-slider-content.scss';
+@import 'blocks/fact-section.scss';
+@import 'blocks/geography-section.scss';
+@import 'blocks/about-section.scss';
+@import 'blocks/about-slider.scss';
+@import 'blocks/about-slider-content.scss';
+@import 'blocks/price-section.scss';
+@import 'blocks/footer.scss';
+@import 'blocks/contacts-modal.scss';
+@import 'blocks/price-accordion.scss';
+@import 'blocks/price-tabs.scss';
+

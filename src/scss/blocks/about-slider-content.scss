@@ -1,0 +1,52 @@
+
+
+.aboutslid{
+  display: inline-block;
+  float: left;
+
+
+&__autorinfo{
+ width: 170px;
+}
+
+&__autorinfo img{
+  width: 170px;
+  height: 150px;
+  display: block;
+  margin-bottom: 24px;
+}
+
+
+
+&__text{
+  width: 330px;
+  height: 100%;
+  padding: 20px;
+  margin: 0;
+  box-sizing:border-box ;
+  display: inline-block;
+   float: right;
+  position: relative;
+  background-color: $lightgray;
+  vertical-align: top;
+  
+}
+
+}
+
+
+
+
+.aboutslid__text:after{
+  position: absolute;
+  display: block;
+  content: '';
+  width: 0;
+	height: 0;
+	border-top: 30px solid $lightgray; 
+	border-left: 45px solid transparent;
+    top:0;
+    left:-45px;
+ 
+ 
+}

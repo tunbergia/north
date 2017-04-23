@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+  @@include('_include/head.html')
+  <title>Document</title>
+</head>
+<body>
+  <!-- Это включение в разметку SVG-спрайта и пример его использования -->
+  <!-- @@include('img/sprite-svg.svg') -->
+  <!-- <svg width="24" height="24"><use xlink:href="#loupe"></use></svg> -->
+  <!-- <svg width="24" height="24"><use xlink:href="#rgb"></use></svg> -->
+  <!-- <svg width="24" height="24"><use xlink:href="#tea-cup"></use></svg> -->
+
+
+  <!-- Это примеры использования растрового спрайта -->
+  <!--
+  <div class="chrome"></div>
+  <div class="github-logo"></div>
+  <div class="kraken"></div>
+  <div class="male-and-female"></div>
+  <div class="musica-searcher"></div>
+  <div class="placeholder"></div>
+  -->
+
+<body>
+  <header class="header">
+    <div class="header__inner">
+
+<!-- бургер -->
+
+      <a href="" class="toggler" id="toggler"><span></span></a>
+
+      <ul class="nav" id="nav">
+        <li class="nav__item"><a href="">Легенды</a></li>
+        <li class="nav__item"><a href="">Факты</a></li>
+        <li class="nav__item"><a href="">Где и когда</a></li>
+        <li class="nav__item"><a href="">Цены на отели</a></li>
+        <li class="nav__item"><a href="">Отзывы</a></li>
+        <li class="nav__item"><a href="">Контакты</a></li>
+      </ul>
+
+      <div class="header__main-title">
+        <h1 class="header__main-title-head">Северное сияние</h1>
+        <strong class="header__main-title-description">Факты, легенды и места обитания</strong>
+      </div>
+
+      <div class="side-bar">
+        <div class="side-bar__social"><a href="#" >VK</a></div>
+        <div class="side-bar__link"><a href="#" >Больше фотографий</a></div>
+      </div>
+    </div>
+
+  </header>
+
+  <main class="main">
+
+      <section class="slide-section">
+        <div class="slide-section__inner">
+
+          <div class="slide-section__info">
+            <h2 class="slide-section__title">Легенды народов севера о полярном сиянии</h2>
+            <!--   слайдер -->
+            <div class="slider">
+            <!-- слайд -->
+              <div class="slider__item">
+                <p class="slider__text">Племена индейцев, жителей северной Америки, считают, что северное сияние – это свет фонарей, которые используют духи для поисков душ погибших охотников. Другие племена называют это явление светом огней, вызываемым всемогущими северными шаманами.</p>
+              </div>
+<!-- конец слайда -->
+            </div>
+            <!-- конец слайдера -->
+          </div>
+<!--           конец секции инфо -->
+
+          <div class="slide-section__visual">
+            <img src="img/slide_800.jpg" alt="фото" class="slide-section__photo">
+          </div>
+
+        </div>
+    </section>
+
+<!--     факты -->
+
+    <section class="fact-section">
+      <div class="fact-section__inner">
+        <h2 class="fact-section__title">Факты о северном сиянии</h2>
+        <ul class="fact-section__items">
+          <li class="fact-section__item"><span class="fact-section__text">Наблюдаются преимущественно в высоких широтах обоих полушариях</span></li>
+          <li class="fact-section__item"><span class="fact-section__text">Спектр полярных сияний меняется с высотой.</span></li>
+          <li class="fact-section__item"><span class="fact-section__text">Полярные сияния весной и осенью возникают заметно чаще, чем зимой и летом.</span></li>
+        </ul>
+      </div>
+    </section>
+
+<!-- география -->
+
+    <section class="geography-section">
+      <div class="geography-section__inner">
+        <div class="geography-section__info">
+          <h2 class="geography-section__title">Где и когда</h2>
+          <p class="geography-section__text">Наблюдать сияние можно в Якутске, Салехарде, Мурманске, на Таймыре и на Аляске. Наиболее часто полярное сияние встречается в областях близ Аляски, в Гудзоновом заливе, в Большом Медвежьем озере, Исландии, южной части Гренландии, на севере Норвегии и Сибири.</p>
+          <ul class="geography-section__legend">
+            <li class="geography-section__legend--season"><span>летом</span></li>
+            <li class="geography-section__legend--season"><span>зимой</span></li>
+            <li class="geography-section__legend--season"><span>весной</span></li>
+            <li class="geography-section__legend--season"><span>осенью</span></li>
+          </ul>
+        </div>
+        <div class="geography-section__map">
+          <img src="img/geography.jpg" alt="карта" class="geography-section__mapimg">
+        </div>
+      </div>
+    </section>
+
+    <!-- отзывы -->
+
+   <section class="about-section">
+      <div class="about-section__inner">
+
+        <h2 class="about-section__title">Отзывы</h2>
+ <!--        слайдер -->
+        <div class="about-slider">
+<!--           слайд -->
+          <div class="about-slider__item">
+
+<!-- содержимое слайда -->
+            <div class=" aboutslid">
+              <div class="aboutslid__autorinfo">
+                <img src="img/autor.jpg" alt="фото автора">
+                <span>Игорь, о Финляндии</span>
+              </div>
+            </div>
+            <p class="aboutslid__text">В зависимости от преобладающих в спектре полярного сияния линий излучения полярные сияния делятся на два типа: высотные полярные сияния типа A с преобладанием атомарных линий и полярные сияния типа B
+            </p>
+<!-- содержимое слайда закончилось -->
+
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- контакты -->
+
+    <section class="contacts-section">
+      <div class="contacts-section__inner">
+
+        <h2 class="contacts-section__title">Контакты</h2>
+
+        <div class="contacts-section__items">
+
+          <div class="contacts-section__item">
+            <a href="" id="link">Финляндия</a>
+            <div class="modal">
+              <div class="modal__content">
+                <span class="modal__close">x</span>
+                <span class="modal__manager">Менеджер направления<br>Артем Ливанов</span>
+                <span class="modal__telefon">+7(812)167 67 00</span>
+                <a href="#">vk.com</a>
+                <a href="#">mail@mail.ru</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contacts-section__item">
+            <a href="" id="link">Норвегия</a>
+            <div class="modal">
+              <div class="modal__content">
+                <span class="modal__close">x</span>
+                <span class="modal__manager">Менеджер направления<br>Артем Ливанов</span>
+                <span class="modal__telefon">+7(812)167 67 00</span>
+                <a href="#">vk.com</a>
+                <a href="#">mail@mail.ru</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contacts-section__item">
+            <a href="" id="link">Якутия</a>
+            <div class="modal">
+              <div class="modal__content">
+                <span class="modal__close">x</span>
+                <span class="modal__manager">Менеджер направления<br>Артем Ливанов</span>
+                <span class="modal__telefon">+7(812)167 67 00</span>
+                <a href="#">vk.com</a>
+                <a href="#">mail@mail.ru</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contacts-section__item">
+            <a href="" id="link">Аляска</a>
+            <div class="modal">
+              <div class="modal__content">
+                <span class="modal__close">x</span>
+                <span class="modal__manager">Менеджер направления<br>Артем Ливанов</span>
+                <span class="modal__telefon">+7(812)167 67 00</span>
+                <a href="#">vk.com</a>
+                <a href="#">mail@mail.ru</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contacts-section__item">
+            <a href="" id="link">Исландия</a>
+            <div class="modal">
+              <div class="modal__content">
+                <span class="modal__close">x</span>
+                <span class="modal__manager">Менеджер направления<br>Артем Ливанов</span>
+                <span class="modal__telefon">+7(812)167 67 00</span>
+                <a href="#">vk.com</a>
+                <a href="#">mail@mail.ru</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contacts-section__item">
+            <a href="" id="link">Мурманск</a>
+            <div class="modal">
+              <div class="modal__content">
+                <span class="modal__close">x</span>
+                <span class="modal__manager">Менеджер направления<br>Артем Ливанов</span>
+                <span class="modal__telefon">+7(812)167 67 00</span>
+                <a href="#">vk.com</a>
+                <a href="#">mail@mail.ru</a>
+              </div>
+            </div>
+          </div>
+          
+ 
+        </div>
+      </div>
+    </section>
+
+    <!-- цены -->
+  <!--  Эта секция не готова есть вопросы по табам -->
+
+    <section class="price-section">
+      <div class="price-section__inner">
+        <h2 class="price-section__title">Цены</h2>
+
+
+
+        <div class="price-section__items">
+
+        <!-- аккордеон -->
+          <dl class="accordion">
+
+            <dt><a href="">Финляндия</a></dt>
+            <dd>
+              <table class="accordion__table">
+                <tr>
+                  <th>Город</th>
+                  <th>Локация</th>
+                  <th>Стоимость</th>
+                </tr>
+                <tr>
+                  <td>Осло</td>
+                  <td>Отель</td>
+                  <td>25 000 руб/чел</td>
+                </tr>
+                <tr>
+                  <td>Осло</td>
+                  <td>Отель</td>
+                  <td>25 000 руб/чел</td>
+                </tr>
+              </table>
+              <a href="#" class="accordion__link">Посмотреть все предложения по Финляндии</a>
+            </dd>
+
+            <dt><a href="">Норвегия</a></dt>
+            <dd>
+              <table class="accordion__table">
+                <tr>
+                  <th>Город</th>
+                  <th>Локация</th>
+                  <th>Стоимость</th>
+                </tr>
+                <tr>
+                  <td>Осло</td>
+                  <td>Отель</td>
+                  <td>25 000 руб/чел</td>
+                </tr>
+                <tr>
+                  <td>Осло</td>
+                  <td>Отель</td>
+                  <td>25 000 руб/чел</td>
+                </tr>
+              </table>
+              <a href="#" class="accordion__link">Посмотреть все предложения по Финляндии</a>
+            </dd>
+
+            <dt><a href="">Якутия</a></dt>
+            <dd>
+              <table class="accordion__table">
+                <tr>
+                  <th>Город</th>
+                  <th>Локация</th>
+                  <th>Стоимость</th>
+                </tr>
+                <tr>
+                  <td>Осло</td>
+                  <td>Отель</td>
+                  <td>25 000 руб/чел</td>
+                </tr>
+                <tr>
+                  <td>Осло</td>
+                  <td>Отель</td>
+                  <td>25 000 руб/чел</td>
+                </tr>
+              </table>
+              <a href="#" class="accordion__link">Посмотреть все предложения по Финляндии</a>
+            </dd>
+
+            <dt><a href="">Аляска</a></dt>
+            <dd>
+              <table class="accordion__table">
+                <tr>
+                  <th>Город</th>
+                  <th>Локация</th>
+                  <th>Стоимость</th>
+                </tr>
+                <tr>
+                  <td>Осло</td>
+                  <td>Отель</td>
+                  <td>25 000 руб/чел</td>
+                </tr>
+                <tr>
+                  <td>Осло</td>
+                  <td>Отель</td>
+                  <td>25 000 руб/чел</td>
+                </tr>
+              </table>
+              <a href="#" class="accordion__link">Посмотреть все предложения по Финляндии</a>
+            </dd>
+
+            <dt><a href="">Исландия</a></dt>
+            <dd>
+              <table class="accordion__table">
+                <tr>
+                  <th>Город</th>
+                  <th>Локация</th>
+                  <th>Стоимость</th>
+                </tr>
+                <tr>
+                  <td>Осло</td>
+                  <td>Отель</td>
+                  <td>25 000 руб/чел</td>
+                </tr>
+                <tr>
+                  <td>Осло</td>
+                  <td>Отель</td>
+                  <td>25 000 руб/чел</td>
+                </tr>
+              </table>
+              <a href="#" class="accordion__link">Посмотреть все предложения по Финляндии</a>
+            </dd>
+
+            <dt><a href="">Мурманск</a></dt>
+            <dd>
+              <table class="accordion__table">
+                <tr>
+                  <th>Город</th>
+                  <th>Локация</th>
+                  <th>Стоимость</th>
+                </tr>
+                <tr>
+                  <td>Осло</td>
+                  <td>Отель</td>
+                  <td>25 000 руб/чел</td>
+                </tr>
+                <tr>
+                  <td>Осло</td>
+                  <td>Отель</td>
+                  <td>25 000 руб/чел</td>
+                </tr>
+              </table>
+              <a href="#" class="accordion__link">Посмотреть все предложения по Финляндии</a>
+            </dd>
+
+          </dl>
+<!--         окончание аккордеона -->
+
+        </div>
+
+
+
+
+
+<!-- табы -->
+
+ <!--        <div class="price-section__row">
+          <div class="price-tab">
+            <h3 class="price-tab__title">Финляндия</h3>
+            <div class="price-tab__item">
+              <table class="price-tab__table">
+                <tr>
+                  <th>Город</th>
+                  <th>Локация</th>
+                  <th>Стоимость</th>
+                </tr>
+                <tr>
+                  <td>Осло</td>
+                  <td>Отель</td>
+                  <td>25 000 руб/чел</td>
+                </tr>
+                <tr>
+                  <td>Осло</td>
+                  <td>Отель</td>
+                  <td>25 000 руб/чел</td>
+                </tr>
+              </table>
+              <a href="#" class="price-tab__link">Посмотреть все предложения по Финляндии</a>
+            </div>
+          </div>
+        </div>
+ -->
+<!-- окончание табов -->
+
+
+
+
+
+
+      </div>
+    </section>
+
+  </main>
+    <footer class="footer">
+    <div class="footer__inner">
+        <p class="footer__info">
+          <span>Телефон для справок:</span>
+          <span>+7 (921) 123 45 67</span>
+        </p>
+    </div>
+  </footer>
+  <script>
+    $(document).ready(function(){
+
+ var toggler=document.getElementById('toggler');
+ toggler.addEventListener('click', mainNavVisibleToggle);
+ function mainNavVisibleToggle(e) {
+  e.preventDefault();
+  toggler.classList.toggle('toggler--close');
+  document.getElementById('nav').classList.toggle('nav--visible');
+};
+
+$('.tabs li').on('click',function(){
+$(this).addClass('active').siblings().removeClass('active');
+var activeID=$(this).attr('rel');
+var activePanel=$('#'+activeID);
+var othersPanel=activePanel.siblings();
+othersPanel.hide();
+activePanel.addClass('d_active').fadeIn().siblings().fadeOut();
+});
+
+$('.accordion dt a').on('click',function(event){
+  
+  event.preventDefault();
+  
+  var DD=$(this).parent().next();
+ DD.fadeIn();
+  $('dd').not(DD).hide();
+  
+});
+
+function openModal(event) {
+    event.preventDefault();
+
+    $('.modal').show();
+
+    $('.modal__close').one('click', closeModal);
+    $('.modal').on('click', closeModalfromModal);
+  }
+  function closeModal() {
+      $(this).closest('.modal').hide();
+    }
+  function closeModalfromModal(event) {
+      if($(event.target).hasClass('modal')) {
+        $(this).closest('.modal').hide();
+      }
+    }
+  $('#link').on('click', openModal);
+
+});
+
+  </script>
+</body>
+</html>

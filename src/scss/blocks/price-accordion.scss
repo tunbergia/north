@@ -1,0 +1,45 @@
+.accordion{
+
+background-color: orange;
+margin: 50px;
+}
+
+.accordion dt{
+  padding: 10px;
+  border: 1px solid black;
+  border-bottom: 0;
+
+	&:last-of-type{
+  border-bottom: 1px solid black;
+	}
+
+.accordion dt a{
+  display: block;
+  color: black;
+  font-weight: bold;
+	}
+
+}
+
+
+
+.accordion dd {
+  padding: 10px;
+  border: 1px solid black;
+  border-bottom: 0;
+  border-top: 0;
+  font-size: 12px;
+
+  &:last-of-type{
+  border-bottom: 1px solid black;
+  border-top: 1px solid white;
+  position: relative;
+  top: -1px;
+	}
+
+.accordion dd a{
+  display: block;
+  color: black;
+  font-weight: bold;
+	}
+}

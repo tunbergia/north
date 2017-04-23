@@ -1,0 +1,69 @@
+.contacts-section {
+
+  background-image: url("/img/contact_1286.jpg");
+  background-position: cover;
+  min-height: 296px;
+
+
+  @media (min-width: $screen-sm) {
+  min-height: 625px;
+
+  }
+
+  @media (min-width: $screen-lg) {
+  min-height: 500px;
+
+}
+
+  &__inner{
+  max-width: $screen-lg;
+  margin: 0 auto;
+  min-height: 530px;
+  display:flex;
+  flex-direction: column;
+}
+
+&__title{
+          // background-color: #f00;
+}
+
+&__items{
+	background-color: #dea;
+  flex-grow: 1;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: flex-start;
+  align-items:center;
+
+  @media (min-width: $screen-lg) {
+
+  justify-content: space-between;
+  }
+
+}
+
+&__item{
+		background-color: #0ea;
+    width: 187px;
+    height: 200px;
+    text-align: center;
+    
+    @media (min-width: $screen-sm) {
+  justify-content: space-between;
+  }
+
+
+	a{
+	text-decoration: none;
+	color: $white;
+	}
+}
+
+
+
+}
+
+
+
+
+

@@ -1,0 +1,36 @@
+.price-section{
+	background-color:$white;
+  min-height: 520px;
+
+
+  @media (min-width: $screen-sm) {
+  min-height: 330px;
+  background-color:$gray;
+  }
+
+  @media (min-width: $screen-lg) {
+  min-height: 536px;
+  background-color:$white;
+}
+
+  &__inner{
+  max-width: $screen-lg;
+  margin: 0 auto;
+  min-height: 520px;
+  display:flex;
+  flex-direction: column;
+
+
+}
+
+&__items{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  list-style: none;
+  padding: 30px 30px;
+
+ }
+
+}
