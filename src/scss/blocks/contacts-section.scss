@@ -1,7 +1,9 @@
 .contacts-section {
 
-  background-image: url("/img/contact_1286.jpg");
-  background-position: cover;
+  background-image: url("/img/contact_2560.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
   min-height: 296px;
 
 
@@ -28,12 +30,13 @@
 }
 
 &__items{
-	background-color: #dea;
+	// background-color: #dea;
   flex-grow: 1;
   display:flex;
   flex-wrap:wrap;
   justify-content: flex-start;
   align-items:center;
+
 
   @media (min-width: $screen-lg) {
 
@@ -43,13 +46,17 @@
 }
 
 &__item{
-		background-color: #0ea;
+		// background-color: #0ea;
     width: 187px;
-    height: 200px;
+    min-height: 20px;
     text-align: center;
     
+    @media (min-width: $screen-xs) {
+    min-height: 200px;
+  }
+
     @media (min-width: $screen-sm) {
-  justify-content: space-between;
+    justify-content: space-between;
   }
 
 	a{
@@ -58,6 +65,20 @@
 	}
 
 &--disabled {
+  text-decoration: none;
+  color: $white;
+  position: relative;
+
+  &:before{
+  content:"";
+  width: 10px;
+  height: 10px;
+  background-color: #89c1a1;
+  position: absolute;
+  top:4px;
+  left:-23px;
+
+  } 
 
 @media (min-width: $screen-xs) {
      pointer-events: none; /* делаем ссылку некликабельной */
@@ -67,15 +88,38 @@
 }
 
 &--content{
-background-color: #fe0;
+// background-color: #fe0;
+margin-top: 20px;
+
+a{
+  display: none;
+
+  @media (min-width: $screen-xs) {
+  display: block;
+  }
+}
+
 }
 
 &--manager{
+display: none;
+
+    @media (min-width: $screen-xs) {
+  display: block;
+  color: $white;
+  margin-bottom: 30px;
+  }
+  
 
 }
 
 &--telefon{
+  display: none;
 
+    @media (min-width: $screen-xs) {
+  display: block;
+  color: $white;
+  }
 }
 
 
