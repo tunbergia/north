@@ -30,7 +30,7 @@ body {
  * Correct `block` display not defined for `main` in IE 11.
  */
 
-article,
+/*article,
 aside,
 details,
 figcaption,
@@ -44,41 +44,41 @@ nav,
 section,
 summary {
   display: block;
-}
+}*/
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
 
-audio,
+/*audio,
 canvas,
 progress,
 video {
   display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
-}
+/*  vertical-align: baseline; /* 2 */
+/*}**//*/
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
 
-audio:not([controls]) {
+/*audio:not([controls]) {
   display: none;
   height: 0;
-}
+}*/
 
 /**
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
 
-[hidden],
+/*[hidden],
 template {
   display: none;
 }
-
+*/
 /* Links
    ========================================================================== */
 
@@ -106,9 +106,9 @@ a:hover {
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
 
-abbr[title] {
+/*abbr[title] {
   border-bottom: 1px dotted;
-}
+}*/
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
@@ -141,10 +141,10 @@ h1 {
  * Address styling not present in IE 8/9.
  */
 
-mark {
+/*mark {
   background: #ff0;
   color: #000;
-}
+}*/
 
 /**
  * Address inconsistent and variable font size in all browsers.

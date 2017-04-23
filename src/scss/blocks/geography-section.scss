@@ -39,7 +39,7 @@
   justify-content: space-between;
 
   list-style: none;
-  padding: 30px 30px;
+
     // background-color: #f0f;
 }
 
@@ -63,6 +63,8 @@ padding-left:22px;
 &__text{
   flex-grow: 1;
 // background-color: #d7f;
+
+
 
   @media (min-width: $screen-sm) {
   order: 1;
