@@ -52,11 +52,36 @@
   justify-content: space-between;
   }
 
-
 	a{
 	text-decoration: none;
 	color: $white;
 	}
+
+&--disabled {
+
+@media (min-width: $screen-xs) {
+     pointer-events: none; /* делаем ссылку некликабельной */
+    cursor: default;  /* устанавливаем курсор в виде стрелки */
+  }
+
+}
+
+&--content{
+background-color: #fe0;
+}
+
+&--manager{
+
+}
+
+&--telefon{
+
+}
+
+
+
+
+
 }
 
 

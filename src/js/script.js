@@ -17,6 +17,7 @@ othersPanel.hide();
 activePanel.addClass('d_active').fadeIn().siblings().fadeOut();
 });
 
+$('dd').hide();
 $('.accordion dt a').on('click',function(event){
   
   event.preventDefault();
@@ -44,5 +45,103 @@ function openModal(event) {
       }
     }
   $('#link').on('click', openModal);
+
+function openModal1(event) {
+    event.preventDefault();
+
+    $('.modal1').show();
+
+    $('.modal1__close').one('click', closeModal1);
+    $('.modal1').on('click', closeModal1fromModal);
+  }
+  function closeModal1() {
+      $(this).closest('.modal1').hide();
+    }
+  function closeModal1fromModal(event) {
+      if($(event.target).hasClass('modal1')) {
+        $(this).closest('.modal1').hide();
+      }
+    }
+  $('#link1').on('click', openModal1);
+
+
+
+
+   function openModal2(event) {
+    event.preventDefault();
+
+    $('.modal2').show();
+
+    $('.modal2__close').one('click', closeModal2);
+    $('.modal2').on('click', closeModal2fromModal);
+  }
+  function closeModal2() {
+      $(this).closest('.modal2').hide();
+    }
+  function closeModal2fromModal(event) {
+      if($(event.target).hasClass('modal2')) {
+        $(this).closest('.modal2').hide();
+      }
+    }
+  $('#link2').on('click', openModal2);
+
+
+   function openModal3(event) {
+    event.preventDefault();
+
+    $('.modal3').show();
+
+    $('.modal3__close').one('click', closeModal3);
+    $('.modal3').on('click', closeModal3fromModal);
+  }
+  function closeModal3() {
+      $(this).closest('.modal3').hide();
+    }
+  function closeModal3fromModal(event) {
+      if($(event.target).hasClass('modal3')) {
+        $(this).closest('.modal3').hide();
+      }
+    }
+  $('#link3').on('click', openModal3);
+
+
+   function openModal4(event) {
+    event.preventDefault();
+
+    $('.modal4').show();
+
+    $('.modal4__close').one('click', closeModal4);
+    $('.modal4').on('click', closeModal4fromModal);
+  }
+  function closeModal4() {
+      $(this).closest('.modal4').hide();
+    }
+  function closeModal4fromModal(event) {
+      if($(event.target).hasClass('modal4')) {
+        $(this).closest('.modal4').hide();
+      }
+    }
+  $('#link4').on('click', openModal4);
+
+
+   function openModal5(event) {
+    event.preventDefault();
+
+    $('.modal5').show();
+
+    $('.modal5__close').one('click', closeModal5);
+    $('.modal5').on('click', closeModal5fromModal);
+  }
+  function closeModal5() {
+      $(this).closest('.modal5').hide();
+    }
+  function closeModal5fromModal(event) {
+      if($(event.target).hasClass('modal5')) {
+        $(this).closest('.modal5').hide();
+      }
+    }
+  $('#link5').on('click', openModal5);
+
+  
 
 });
