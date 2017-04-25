@@ -1,5 +1,7 @@
     $(document).ready(function(){
 
+      // бургер
+
  var toggler=document.getElementById('toggler');
  toggler.addEventListener('click', mainNavVisibleToggle);
  function mainNavVisibleToggle(e) {
@@ -17,6 +19,8 @@ othersPanel.hide();
 activePanel.addClass('d_active').fadeIn().siblings().fadeOut();
 });
 
+// аккордион
+
 $('dd').hide();
 $('.accordion dt a').on('click',function(event){
   
@@ -27,6 +31,8 @@ $('.accordion dt a').on('click',function(event){
   $('dd').not(DD).hide();
   
 });
+
+// модалки
 
 function openModal(event) {
     event.preventDefault();
@@ -142,6 +148,7 @@ function openModal1(event) {
     }
   $('#link5').on('click', openModal5);
 
+// скролл
 
   $("#nav").on("click","a", function (event) {
 event.preventDefault();
@@ -150,6 +157,12 @@ top = $(id).offset().top;
 $('body,html').animate({scrollTop: top}, 1500);
 });
 
-  
+// табы
+$(".tab_item").not(":first").hide();
+$(".wrapper .tab").click(function() {
+  $(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
+  $(".tab_item").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active");
+
 
 });

@@ -1,42 +1,45 @@
 .accordion{
+  
+  @media (min-width: $screen-sm) {
+  display: none;
+  }
 
-}
-.accordion dt{
+dt{
   padding: 10px;
-  border: 1px solid black;
-  border-bottom: 0;
 
-	&:last-of-type{
-  border-bottom: 1px solid black;
-	}
-
-.accordion dt a{
+  a{
+  text-decoration: none;
   display: block;
   color: black;
   font-weight: bold;
-	}
+}
 
 }
 
 
-
-.accordion dd {
+dd {
   padding: 10px;
-  border: 1px solid black;
-  border-bottom: 0;
-  border-top: 0;
-  font-size: 12px;
+  margin-left: 0px;
 
-  &:last-of-type{
-  border-bottom: 1px solid black;
-  border-top: 1px solid white;
-  position: relative;
-  top: -1px;
-	}
 
-.accordion dd a{
+
+// .active a{
+//    color: #89c1a1;
+//   }
+
+// Дописать класс active в скрипт!!
+
+
+
+ 
+  a{
   display: block;
   color: black;
   font-weight: bold;
+  text-decoration: none;
 	}
+
 }
+
+}
+
