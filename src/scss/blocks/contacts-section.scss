@@ -23,6 +23,7 @@
   min-height: 530px;
   display:flex;
   flex-direction: column;
+
 }
 
 &__title{
@@ -31,11 +32,11 @@
 
 &__items{
 	// background-color: #dea;
-  flex-grow: 1;
+  // flex-grow: 1;
   display:flex;
   flex-wrap:wrap;
   justify-content: flex-start;
-  align-items:center;
+
 
 
   @media (min-width: $screen-lg) {
@@ -47,16 +48,17 @@
 
 &__item{
 		// background-color: #0ea;
-    width: 187px;
-    min-height: 20px;
-    text-align: center;
-    
-    @media (min-width: $screen-xs) {
-    min-height: 200px;
-  }
+    width: 160px;
+    min-height: 50px;
+    align-items:center;
+    margin-top: 20px;
+ 
 
     @media (min-width: $screen-sm) {
     justify-content: space-between;
+    width: 187px;
+    min-height: 200px;
+    margin-top: 60px;
   }
 
 	a{
@@ -64,10 +66,11 @@
 	color: $white;
 	}
 
-&--disabled {
+  &--disabled {
   text-decoration: none;
   color: $white;
   position: relative;
+  padding-left: 26px;
 
   &:before{
   content:"";
@@ -76,11 +79,11 @@
   background-color: #89c1a1;
   position: absolute;
   top:4px;
-  left:-23px;
+  left:0;
 
   } 
 
-@media (min-width: $screen-xs) {
+@media (min-width: $screen-sm) {
      pointer-events: none; /* делаем ссылку некликабельной */
     cursor: default;  /* устанавливаем курсор в виде стрелки */
   }
@@ -94,7 +97,7 @@ margin-top: 20px;
 a{
   display: none;
 
-  @media (min-width: $screen-xs) {
+  @media (min-width: $screen-sm) {
   display: block;
   }
 }
@@ -104,7 +107,7 @@ a{
 &--manager{
 display: none;
 
-    @media (min-width: $screen-xs) {
+    @media (min-width: $screen-sm) {
   display: block;
   color: $white;
   margin-bottom: 30px;
@@ -116,7 +119,7 @@ display: none;
 &--telefon{
   display: none;
 
-    @media (min-width: $screen-xs) {
+    @media (min-width: $screen-sm) {
   display: block;
   color: $white;
   }
