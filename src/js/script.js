@@ -166,14 +166,13 @@ $(".wrapper .tab").click(function() {
 
 // слайдер легенды
 
-        $('.slider').slick({
-          autoplay: true,
-        autoplaySpeed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        prevArrow: $('.prev'),
-        nextArrow: $('.next'),
-        });
+$('.one-time').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
+});
 
 
 
