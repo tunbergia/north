@@ -172,6 +172,47 @@ $('.one-time').slick({
   speed: 300,
   slidesToShow: 1,
   adaptiveHeight: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+// слайдер отзывы
+
+$('.responsive').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 5,
+  slidesToScroll: 5,
+  responsive: [
+    {
+      breakpoint: 1600,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 1210,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
 });
 
 

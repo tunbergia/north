@@ -13,21 +13,14 @@
   &__inner{
   max-width: $screen-lg;
   margin: 0 auto;
-  min-height: 100%;
-  display:flex;
-  flex-direction: column;
+  margin-left: 10px;
+   }
 
-    // background-color: #fe0;
-  }
-
-&__title{
-          // background-color: #f00;
-  }
-
-
-
-
-
-
+   &__title{
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+   }
 }
 

@@ -1,52 +1,59 @@
 
 
 .aboutslid{
-  display: inline-block;
-  float: left;
+font-size: 10px;
+display: inline-block;
+height: 60px;
+background-image: url("/img/autor.jpg");
+
+background-position:-50px -20px ;
+background-size: 230%;
+background-repeat: no-repeat;
+
+
+
 
 
 &__autorinfo{
- width: 170px;
-}
+width: 60px;
+display: inline-block;
+color: #210227;
+line-height: 14px;
+margin-top: 75px;
 
-&__autorinfo img{
-  width: 170px;
-  height: 150px;
-  display: block;
-  margin-bottom: 24px;
+ 
+ 
 }
-
 
 
 &__text{
-  width: 330px;
-  height: 100%;
-  padding: 20px;
-  margin: 0;
-  box-sizing:border-box ;
+  width: 180px;
+  height: 107px;
+  padding: 15px;
+  padding-top: 23px;
+  margin-top: 0;
+  margin-left: 25px;
+  font-size: 10px;
+  line-height: 14px;
   display: inline-block;
-   float: right;
   position: relative;
   background-color: $lightgray;
   vertical-align: top;
+  color: #4b4b5c;
   
 }
 
 }
-
-
-
-
 .aboutslid__text:after{
   position: absolute;
   display: block;
   content: '';
   width: 0;
 	height: 0;
-	border-top: 30px solid $lightgray; 
-	border-left: 45px solid transparent;
+	border-top: 17px solid $lightgray; 
+	border-left: 25px solid transparent;
     top:0;
-    left:-45px;
+    left:-25px;
  
  
 }
