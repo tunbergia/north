@@ -1,6 +1,6 @@
 .fact-section{
 	background-color:$lightgray;
-  min-height: 430px;
+  min-height: 400px;
 
   @media (min-width: $screen-sm) {
   min-height: 180px;
@@ -14,19 +14,11 @@
   &__inner{
   	max-width: $screen-lg;
   	margin: 0 auto;
-    min-height: 100%;
+    margin-left: 10px;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-
-    // background-color: #fe0;
-
   }
-
-&__title{
-        // background-color: #f00;
-
-}
 
 &__items{
   display:flex;
@@ -34,8 +26,10 @@
   justify-content: space-between;
   flex-grow: 1;
   list-style: none;
-  padding: 30px 30px;
-    // background-color: #f0f;
+  padding: 30px 20px;
+  padding-bottom: 0;
+  margin-top: 2px;
+  margin-bottom: 0;
 
   @media (min-width: $screen-sm) {
   flex-direction: row;
@@ -43,27 +37,16 @@
  }
 }
 
-.fact-section__item:last-child{
- @media (max-width: 767px){
-  &:before{
-  display: none;
-  } 
- }
-}
-
 .fact-section__item
 {
   position: relative;
+  font-size: 12px;
   flex-grow: 1;
   flex-basis: 80px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 7px;
+  padding-bottom: 66px;
   box-sizing: border-box;
   
-
-
-  // background-color: #0f0;
-
   &:after{
   content:"";
   width: 10px;
@@ -83,10 +66,7 @@
   top:0;
   left:-15px;
 }
-}
 
-.fact-section__item
-{
   @media (min-width: $screen-sm){ 
 
   &:before{
@@ -100,12 +80,24 @@
 }
 }
 }
+.fact-section__item:nth-child(2){
+  padding-bottom: 90px;
+}
 
+
+.fact-section__item:last-child{
+  padding-bottom: 0;
+ @media (max-width: 767px){
+  &:before{
+  display: none;
+  } 
+ }
+}
 
 .fact-section__item span{
-  line-height: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  line-height: 20px;
+  margin-top: 0px;
+  // margin-bottom: 20px;
 }
 
 .fact-section__item:nth-child(1) span{
@@ -114,9 +106,9 @@
   z-index:10;
   content:"01";
   color:#e6e6e6;
-  font-size: 20px;
+  font-size: 25px;
   position: absolute;
-  top:-22px;
+  top:-20px;
 
   @media (min-width: $screen-sm){
   top:-32px; 
@@ -131,9 +123,9 @@
   z-index:10;
   content:"02";
   color:#e6e6e6;
-  font-size: 20px;
+  font-size: 25px;
   position: absolute;
-  top:-22px;
+  top:-20px;
 
   @media (min-width: $screen-sm){
   top:-32px; 
@@ -148,9 +140,9 @@
   z-index:10;
   content:"03";
   color:#e6e6e6;
-  font-size: 20px;
+  font-size: 25px;
   position: absolute;
-  top:-22px;
+  top:-20px;
 
   @media (min-width: $screen-sm){
   top:-32px; 

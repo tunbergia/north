@@ -1,5 +1,5 @@
 .slide-section{
-	min-height: 395px;
+	min-height: 400px;
 
 	@media (min-width: $screen-sm) {
   min-height: 340px;
@@ -14,17 +14,23 @@
 &__inner{
 	max-width: $screen-lg;
   margin: 0 auto;
-  min-height: 100%;
+
+
 }
 
 
 &__info {
   display:flex;
   flex-direction: column;
+  min-height: 400px;
+
 
 	@media (max-width: 767px) {
 	background-image: url("/img/slide_607.jpg");
 	background-size: cover;
+  background-position-x: -175px;
+  background-repeat: no-repeat;
+  
   }	
 
 	@media (min-width: $screen-sm) {
@@ -35,6 +41,8 @@
 
 
 &__title{
+  color: #fff;
+      margin-left: 10px;
 }
 
 &__visual {
@@ -54,3 +62,13 @@
 }
 
 }
+
+.legend__text{
+  font-size: 12px; 
+  line-height: 20px;
+  color: #fff;
+  font-weight: lighter;  
+  margin: 30px 15px;
+  width: 280px;
+}
+
