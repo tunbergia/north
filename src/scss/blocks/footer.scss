@@ -1,3 +1,11 @@
 .footer{
 	background-color: $blue;
+	&__inner{
+		margin: 0 auto;
+	}
+
+	&__info{
+	margin-top: 0;
+	padding: 10px 20px;
+	}
 }

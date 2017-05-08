@@ -2,6 +2,7 @@
 	background-color:$lightgray;
   min-height: 400px;
 
+
   @media (min-width: $screen-sm) {
   min-height: 180px;
 
@@ -13,11 +14,17 @@
 
   &__inner{
   	max-width: $screen-lg;
-  	margin: 0 auto;
     margin-left: 10px;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media (min-width: $screen-lg){
+    margin: 0 auto;
+    padding-left: 10px;
+
+ }
+
   }
 
 &__items{

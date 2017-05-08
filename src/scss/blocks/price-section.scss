@@ -13,13 +13,18 @@
   background-color:$white;
 }
 
+  &__title{
+  color: #191c3f;
+  margin-top: 22px;
+}
+
   &__inner{
   max-width: $screen-lg;
   margin: 0 auto;
+  padding-left: 10px;
   min-height: 520px;
   display:flex;
   flex-direction: column;
-
 
 }
 
