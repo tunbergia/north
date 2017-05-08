@@ -1,6 +1,6 @@
 .price-section{
 	background-color:$white;
-  min-height: 520px;
+  min-height: 300px;
 
 
   @media (min-width: $screen-sm) {
@@ -22,7 +22,7 @@
   max-width: $screen-lg;
   margin: 0 auto;
   padding-left: 10px;
-  min-height: 520px;
+  min-height: 300px;
   display:flex;
   flex-direction: column;
 
