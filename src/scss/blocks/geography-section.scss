@@ -3,7 +3,7 @@
   min-height: 620px;
 
   @media (min-width: $screen-sm) {
-  min-height: 330px;
+  min-height: 335px;
   background-color:$gray;
   }
 
@@ -33,6 +33,7 @@
 
  &__info{
   padding:0px 10px;
+  padding-left: 20px;
   flex-basis:60%;
   display:flex;
   flex-direction: column;
@@ -44,7 +45,7 @@
 }
 
 &__title{
-          // background-color: #f00;
+margin-top: 30px;
 }
 
 &__legend{
@@ -52,7 +53,7 @@
 list-style:none;
 display:flex;
 justify-content:space-between;
-margin-bottom: 42px;
+margin-bottom: 35px;
 padding-left:22px;
 }
 
@@ -76,12 +77,14 @@ padding-left:22px;
 
 
 &__map{
-flex-basis:40%;
-margin-left: -10px;
 background-image: url("/img/geography.jpg");
-height:340px; 
+height:335px; 
 background-size: cover;
 background-repeat: no-repeat;
+
+@media (min-width: $screen-sm) {
+width: 86%; 
+}
 
 }
 
@@ -113,7 +116,7 @@ background-repeat: no-repeat;
   background-color: #ef8989;
   position: absolute;
   top:0;
-  left:-23px;
+  left:-17px;
 
   } 
  }

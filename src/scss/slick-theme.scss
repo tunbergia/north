@@ -145,7 +145,8 @@ $slick-opacity-not-active: 0.25 !default;
     // width: 100%;
         @media (min-width: $screen-sm){
         bottom: -86px;
-        padding-left: 70px;
+        padding-left: 38%;
+        padding-right: 38%;
         }
     li {
         position: relative;
@@ -216,6 +217,7 @@ $slick-opacity-not-active: 0.25 !default;
 
 .slick-dotted.slick-slider {
     margin-bottom: 30px;
+
 }
 
 .responsive>.slick-dots {
@@ -228,6 +230,7 @@ $slick-opacity-not-active: 0.25 !default;
     // padding-left: 10px;
     // margin: 0;
     // width: 100%;
+
     li {
         position: relative;
         display: inline-block;
@@ -236,6 +239,9 @@ $slick-opacity-not-active: 0.25 !default;
         margin-right: 20px;
         padding: 0;
         cursor: pointer;
+        @media (min-width: $screen-sm){
+        margin-right: 5px;
+        }
         button {
             border: 0;
             background: transparent;
@@ -263,6 +269,10 @@ $slick-opacity-not-active: 0.25 !default;
                 width: 12px;
                 height: 12px;
                 background-color: #f8fefc;
+                @media (min-width: $screen-sm){
+                width: 9px;
+                height: 9px;                    
+                }
 
                 // font-family: $slick-font-family;
                 // font-size: $slick-dot-size;
