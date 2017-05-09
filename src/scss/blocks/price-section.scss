@@ -16,6 +16,9 @@
   &__title{
   color: #191c3f;
   margin-top: 22px;
+  @media (min-width: $screen-sm){
+  margin-bottom: 5px;  
+  }
 }
 
   &__inner{
