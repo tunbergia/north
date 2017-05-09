@@ -10,7 +10,7 @@
   @media (min-width: $screen-sm) {
   background-position: 30% 85%;
   background-size: 250%;
-  min-height: 590px;
+  min-height: 600px;
   }
 
   @media (min-width: $screen-lg) {
@@ -29,15 +29,26 @@
   	margin: 0 auto;
     margin-left: 10px;
     min-height: 100%;
-  }
+
+    @media (min-width: $screen-sm){
+      padding-top: 38px;
+    }
+   }
 
   &__main-title{
     color: #fff;
     padding-top: 195px;
+    padding-bottom: 18px;
+    padding-left: 0px;
+    @media (min-width: $screen-sm){
+    padding-top: 115px;
+    padding-bottom: 18px;
+    padding-left: 65px;
+    }
 
     &-description{
     font-family: 'Jura', sans-serif;
-    font-size:16px;  
+    font-size:14px;  
 
     @media (min-width: $screen-lg) {
     font-size:20px;  
