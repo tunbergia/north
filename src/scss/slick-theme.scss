@@ -145,9 +145,15 @@ $slick-opacity-not-active: 0.25 !default;
     // width: 100%;
         @media (min-width: $screen-sm){
         bottom: -86px;
-        padding-left: 38%;
-        padding-right: 38%;
+        padding-left: 30%;
+        padding-right: 30%;
         }
+        @media (min-width: $screen-lg){
+        bottom: -128px;
+        padding-left: 115px;
+        // padding-right: 38%;
+        }
+
     li {
         position: relative;
         display: inline-block;
@@ -158,6 +164,9 @@ $slick-opacity-not-active: 0.25 !default;
         cursor: pointer;
         @media (min-width: $screen-sm){
         margin-right: 7px;
+        }
+        @media (min-width: $screen-lg){
+        margin-right: 20px;
         }
         button {
             border: 0;
@@ -187,6 +196,7 @@ $slick-opacity-not-active: 0.25 !default;
                 height: 15px;
                 background-color: #b2dad0;
 
+
                 // font-family: $slick-font-family;
                 // font-size: $slick-dot-size;
                 // line-height: 20px;
@@ -199,6 +209,10 @@ $slick-opacity-not-active: 0.25 !default;
                 @media (min-width: $screen-sm){
                 width: 10px;
                 height: 10px;   
+                }
+                @media (min-width: $screen-lg){
+                width: 15px;
+                height: 15px;
                 }
             }
 
@@ -271,7 +285,7 @@ $slick-opacity-not-active: 0.25 !default;
                 background-color: #f8fefc;
                 @media (min-width: $screen-sm){
                 width: 9px;
-                height: 9px;                    
+                height: 9px;
                 }
 
                 // font-family: $slick-font-family;

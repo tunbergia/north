@@ -121,11 +121,19 @@
     width: 99%;
     background-color: rgba(28, 21, 49, 0.5);
     }
-
+    @media (min-width: $screen-lg){
+    width:1168px;
+    margin-left: 0px;
+    justify-content: space-around;
+    }
 
   &__item {
-    // display: inline-block;
-
+    &:last-child{
+      @media (min-width: $screen-lg){
+      // padding-left: 65px;
+      padding-right: 60px;
+      }
+      }
     
     &:first-child {
       a {
@@ -154,6 +162,7 @@
       padding-top: 20px;
       padding-bottom: 8px;  
       }
+
     }
   }
 }

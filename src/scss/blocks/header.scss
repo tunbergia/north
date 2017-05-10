@@ -17,21 +17,25 @@
   background-image: url("/img/header_2560.jpg");
   background-size: auto 140%;
   background-position: bottom;
+  min-height: 652px;
   }
 
   @media (min-width: 1300px) {
     background-size: 100% auto;
     background-position: bottom;
-  }
+   }
 
   &__inner{
   	max-width: $screen-lg;
-  	margin: 0 auto;
     margin-left: 10px;
     min-height: 100%;
 
     @media (min-width: $screen-sm){
       padding-top: 38px;
+    }
+    @media (min-width: $screen-lg){
+      padding-top: 22px;
+      margin: 0 auto;
     }
    }
 
@@ -45,6 +49,11 @@
     padding-bottom: 18px;
     padding-left: 65px;
     }
+    @media (min-width: $screen-lg){
+    padding-top: 112px;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    }
 
     &-description{
     font-family: 'Jura', sans-serif;
@@ -57,6 +66,10 @@
   }
   &__main-title-head{
       margin-bottom: 11px;
+    
+    @media (min-width: $screen-lg) {
+    margin-bottom: 32px;  
     }
+}
 }
 

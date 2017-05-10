@@ -10,11 +10,11 @@
 
   @media (min-width: $screen-sm) {
   display: none;
-  min-height: 590px;
   }
 
-  @media (min-width: 1316px) {
+  @media (min-width: 1280px) {
   display: block;
+  min-height: 652px;
   }
 
   &__link {
@@ -24,7 +24,10 @@
   position: absolute;
   top: 225px;
   right:-55px;
-
+  @media (min-width: $screen-lg){
+  top: 352px;
+  right:-52px;
+  }
 }
 
   &__link a{
@@ -32,6 +35,9 @@
   text-decoration: none;
   color: #fff;
   font-size:12px;
+  @media (min-width: $screen-lg){
+  font-size:16px;
+  }
 }
 
   &__social{
