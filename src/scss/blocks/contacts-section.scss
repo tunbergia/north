@@ -16,6 +16,8 @@
 
   @media (min-width: $screen-lg) {
   min-height: 500px;
+  background-position-y: -90px;
+  background-size: 100%;
 
 }
 
@@ -33,7 +35,10 @@
 color: #fff;
 margin-top: 37px;
   @media (min-width: $screen-sm){
-  margin-top: 43px;   
+  margin-top: 43px;
+  }
+  @media (min-width: $screen-sm){
+  margin-top: 55px;
   }
 }
 
@@ -63,14 +68,17 @@ margin-top: 37px;
     justify-content: space-between;
     width: 185px;
     min-height: 200px;
-
-  }
+    }
 
 	a{
 	text-decoration: none;
   font-family: 'Jura', sans-serif;
   font-size:14px;
 	color: $white;
+
+  @media (min-width: $screen-lg){
+  font-size:20px;
+  }
 	}
 
   &--disabled {
@@ -87,14 +95,16 @@ margin-top: 37px;
   position: absolute;
   top:2px;
   left:0;
-
+  @media (min-width: $screen-lg){
+  top:5px;
+  }
   } 
+  
 
-@media (min-width: $screen-sm) {
-     pointer-events: none; /* делаем ссылку некликабельной */
+  @media (min-width: $screen-sm) {
+    pointer-events: none; /* делаем ссылку некликабельной */
     cursor: default;  /* устанавливаем курсор в виде стрелки */
   }
-
 }
 
 &--content{
@@ -108,9 +118,11 @@ a{
 
   @media (min-width: $screen-sm) {
   display: block;
-    font-size:12px;
-    line-height: 30px;
-
+  font-size:12px;
+  line-height: 30px;
+  }
+  @media (min-width: $screen-lg){
+  font-size:14px;
   }
 }
 
@@ -119,13 +131,16 @@ a{
 &--manager{
 display: none;
 
-    @media (min-width: $screen-sm) {
+  @media (min-width: $screen-sm) {
   display: block;
   color: $white;
   margin-bottom: 35px;
   font-family:'Ubuntu',sans-serif;
   font-size:12px;
   line-height: 20px;
+  }
+  @media (min-width: $screen-lg){
+  font-size:14px;
   }
   
 
@@ -134,23 +149,18 @@ display: none;
 &--telefon{
   display: none;
 
-    @media (min-width: $screen-sm) {
+  @media (min-width: $screen-sm) {
   display: block;
   color: $white;
   font-family:'Ubuntu',sans-serif;
   font-size:12px;
   line-height: 30px;
   }
+  @media (min-width: $screen-lg){
+  font-size:14px;
+  }
 }
-
-
-
-
-
 }
-
-
-
 }
 
 

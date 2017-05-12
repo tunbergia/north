@@ -1,7 +1,8 @@
 .footer{
 	background-color: $blue;
 	&__inner{
-		margin: 0 auto;
+	margin: 0 auto;
+	max-width: $screen-lg;
 	}
 
 	&__info{
@@ -23,6 +24,10 @@
 	@media (min-width: $screen-sm){
 	padding-left: 32px;
 	padding-right: 22px;
+	}
+	@media (min-width: $screen-lg){
+	padding-left: 22px;
+	padding-right: 32px;
 	}
 	}
 	}

@@ -185,16 +185,7 @@ $('.responsive').slick({
   slidesToScroll: 5,
   responsive: [
     {
-      breakpoint: 1600,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 1210,
+      breakpoint: 7000,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,

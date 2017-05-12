@@ -17,7 +17,11 @@
   color: #191c3f;
   margin-top: 22px;
   @media (min-width: $screen-sm){
-  margin-bottom: 5px;  
+  margin-bottom: 5px;
+  }
+  @media (min-width: $screen-sm){
+  margin-top: 80px;
+  margin-bottom: 22px;
   }
 }
 
