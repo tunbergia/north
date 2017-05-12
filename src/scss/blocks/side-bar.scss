@@ -41,6 +41,12 @@
 }
 
   &__social{
+  position: absolute;
+  top: 20px;
+  right:9px;
+  @media (min-width: $screen-lg){
+  top: 40px;
+  }
 }
 
   &__social a{
