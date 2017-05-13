@@ -389,7 +389,7 @@ body h2 {
   src: url(fonts/nord-medium.woff), url(../fonts/nord-medium.woff2); }
 
 .header {
-  background-image: url("/img/header_1286.jpg");
+  background-image: url("../img/header_1286.jpg");
   background-repeat: no-repeat;
   background-position: 12% 100%;
   background-size: 250%;
@@ -410,7 +410,7 @@ body h2 {
     margin-bottom: 11px; }
 
 .contacts-section {
-  background-image: url("/img/contact_2560.jpg");
+  background-image: url("../img/contact_2560.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: 190%;
@@ -646,7 +646,7 @@ body h2 {
     line-height: 20px;
     margin-top: 10px; }
   .geography-section__map {
-    background-image: url("/img/geography.jpg");
+    background-image: url("../img/geography.jpg");
     height: 335px;
     background-size: cover;
     background-repeat: no-repeat; }
@@ -715,7 +715,7 @@ body h2 {
   font-size: 10px;
   display: inline-block;
   height: 60px;
-  background-image: url("/img/autor.jpg");
+  background-image: url("../img/autor.jpg");
   background-position: -50px -20px;
   background-size: 230%;
   background-repeat: no-repeat; }
@@ -1345,7 +1345,7 @@ body h2 {
     display: inline-block;
     width: 50.5%;
     min-height: 340px;
-    background-image: url("/img/slide_6071.jpg");
+    background-image: url("../img/slide_6071.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat; }
   .legend__text{
@@ -1507,7 +1507,7 @@ body h2 {
     margin-top: 40px;
     line-height: 34px; }
   .header{
-    background-image: url("/img/header_2560.jpg");
+    background-image: url("../img/header_2560.jpg");
     background-size: auto 140%;
     background-position: bottom;
     min-height: 652px; }
@@ -1554,7 +1554,7 @@ body h2 {
   .slide-section__visual{
     width: 48.6%;
     min-height: 520px;
-    background-image: url("/img/slide_6071.jpg");
+    background-image: url("../img/slide_6071.jpg");
     background-size: 120% 120%;
     background-repeat: no-repeat; }
   .legend__text{
@@ -1754,14 +1754,14 @@ body h2 {
 
 @media (max-width: 420px){
   .slide-section__info{
-    background-image: url("/img/slide_607.jpg");
+    background-image: url("../img/slide_607.jpg");
     background-size: cover;
     background-position-x: -175px;
     background-repeat: no-repeat; } }
 
 @media (max-width: 767px){
   .slide-section__info{
-    background-image: url("/img/slide_607.jpg");
+    background-image: url("../img/slide_607.jpg");
     background-size: cover;
     background-repeat: no-repeat; }
   .fact-section__item:last-child:before{
