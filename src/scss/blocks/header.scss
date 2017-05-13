@@ -1,7 +1,7 @@
 
 .header {
 
-  background-image: url("/img/header_1286.jpg");
+  background-image: url("../img/header_1286.jpg");
   background-repeat: no-repeat;
   background-position: 12% 100%;
   background-size: 250%;
@@ -14,7 +14,7 @@
   }
 
   @media (min-width: $screen-lg) {
-  background-image: url("/img/header_2560.jpg");
+  background-image: url("../img/header_2560.jpg");
   background-size: auto 140%;
   background-position: bottom;
   min-height: 652px;

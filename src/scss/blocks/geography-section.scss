@@ -1,6 +1,6 @@
 .geography-section{
 	background-color:$white;
-  min-height: 620px;
+  min-height: 550px;
 
   @media (min-width: $screen-sm) {
   min-height: 335px;
@@ -15,7 +15,6 @@
   &__inner{
   max-width: $screen-lg;
   margin-left: 10px;
-  // min-height: 630px;
   display:flex;
   flex-direction: column;
 
@@ -87,7 +86,7 @@ width: 435px;
 
 
 &__map{
-background-image: url("/img/geography.jpg");
+background-image: url("../img/geography.jpg");
 height:335px; 
 background-size: cover;
 background-repeat: no-repeat;
